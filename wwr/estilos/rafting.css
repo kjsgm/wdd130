@@ -136,7 +136,7 @@ main {
 }
 
 header {
-    background-color: var(--cor-destaque2);
+    background-color: var(--cor-secundaria);
     padding: 10px;
 }
 
