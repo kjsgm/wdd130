@@ -1,0 +1,155 @@
+:root {
+    --cor-primaria: #1b4965;
+    --cor-secundaria: #62b6cb;
+    --cor-destaque1: #5fa8d3;
+    --cor-destaque2: #cae9ff;
+
+    --fonte-titulo: Georgia, serif;
+    --fonte-body: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-body);
+    color: var(--cor-primaria);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    background-color: var(--cor-destaque2);
+}
+
+header img {
+    width: 120px;
+    padding: 10px;
+    justify-self: end;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+nav,
+
+p {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(27, 73, 101, 0.7);
+    color: white;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(202, 233, 255, 0.85);
+    padding: 10px;
+    overflow: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
+.redes-sociais img {
+    width: 40px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-destaque2);
+    margin-top: 20px;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 10px;
+}
+
+body {
+    background-color: #f5f9fc;
+}
+
+main {
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+header {
+    background-color: var(--cor-destaque2);
+    padding: 10px;
+}
+
+.hero {
+    margin-bottom: 30px;
+}
+
+header img {
+    width: 120px;
+    padding: 10px;
+    background: transparent;
+}
+
+body {
+    background: #eef5f9;
+}
