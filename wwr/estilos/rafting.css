@@ -105,7 +105,7 @@ article {
     width: 125px;
 }
 
-.redes-sociais img {
+.socialmedia img {
     width: 40px;
     height: auto;
 }
@@ -118,7 +118,7 @@ footer {
     margin-top: 20px;
 }
 
-.redes-sociais {
+.socialmedia {
     display: flex;
     gap: 10px;
 }
@@ -151,4 +151,36 @@ header img {
 
 body {
     background: #eef5f9;
+}
+
+.adventures {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.adventures figure {
+    text-align: center;
+}
+
+.adventures img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.history img {
+    width: 100%;
+    border-radius: 8px;
 }
