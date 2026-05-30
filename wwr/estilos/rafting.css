@@ -16,6 +16,7 @@
 body {
     font-family: var(--fonte-body);
     color: var(--cor-primaria);
+    background: #eef5f9;
 }
 
 header,
@@ -140,12 +141,6 @@ header {
 
 header img {
     background: transparent;
-}
-
-body {
-    font-family: var(--fonte-body);
-    color: var(--cor-primaria);
-    background: #eef5f9;
 }
 
 .adventures {
