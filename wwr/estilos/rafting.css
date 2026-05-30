@@ -123,10 +123,6 @@ footer {
     gap: 10px;
 }
 
-body {
-    background-color: #f5f9fc;
-}
-
 main {
     background-color: white;
     padding: 25px;
@@ -150,6 +146,8 @@ header img {
 }
 
 body {
+    font-family: var(--fonte-body);
+    color: var(--cor-primaria);
     background: #eef5f9;
 }
 
