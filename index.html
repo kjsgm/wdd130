@@ -5,47 +5,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Katherine Montanhaur | WDD 130</title>
-
-    <meta name="description" content="Katherine Montanhaur WDD130 homepage about web development and learning HTML and CSS">
+    <meta name="description" content="Explore aventuras emocionantes de rafting, passeios guiados e experiências inesquecíveis com a White Water Rafting.">
 
     <meta name="author" content="Katherine Montanhaur">
 
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>White Water Rafting | Home</title>
+
+    <link rel="stylesheet" href="estilos/rafting.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="#">Página Inicial</a>
-            <a href="wwr/">Site de Rafting</a>
-        </nav>
-    </header>
 
-    <main>
-        <h1>Katherine Montanhaur | WDD 130</h1>
-        <img src="imagens/perfil.jpg" alt="Olá, meu nome é Katherine">
+    <img src="imagens/logo.png" alt="Logo da White Water Rafting">
 
-        <p>
-            Olá! Meu nome é Katherine.
-            Eu moro no Brasil e gosto de tecnologia,
-            aprender programação e desenvolver novas habilidades.
-        </p>
-    </main>
 
-    <aside>
-    <h2>Brasil</h2>
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li><a href="passeios.html">Passeios</a></li>
+            <li><a href="contato.html">Fale Conosco</a></li>
+        </ul>
+    </nav>
 
-    <img src="imagens/templo-lago-salgado.jpg" alt="Paisagem do Brasil">
+</header>
+<main>
+    <section class="hero">
+         <img src="imagens/hero.jpg" alt="White Water Rafting Adventure">
+         <h1>White Water Rafting Adventures</h1>
+    </section>
+    
+    <section class="cta">
+    <h2>Ready for Your Next Adventure?</h2>
 
     <p>
-        O Brasil é um país conhecido por sua diversidade cultural, natureza e povo acolhedor.
+        Discover our exciting rafting trips and find the perfect experience for you.
     </p>
-    </aside>
 
-    <footer>
-        <p>©2026 ❖ Katherine Montanhaur ❖ Brasil</p>
-    </footer>
+    <a href="passeios.html">View Our Trips</a>
+</section>
+
+    <section class="newsletter">
+
+    <h2>Join Our Newsletter</h2>
+
+    <form>
+        <label for="fullname">Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Subscribe Now</button>
+    </form>
+
+    </section>
+
+    <section class="home-grid">
+        <img src="imagens/happy-client.jpg" alt="Happy rafting customers">
+
+        <div>
+            <h2>Unforgettable Experiences</h2>
+            <p>
+                Enjoy exciting rafting adventures with family and friends while creating memories that will last a lifetime.
+            </p>
+        </div>
+    </section>
+
+    <section class="home-grid">
+        <div>
+            <h2>Safety and Nature</h2>
+            <p>
+                Our experienced guides provide safe and enjoyable trips while you explore beautiful rivers and natural landscapes.
+            </p>     
+        </div>
+        <img src="imagens/hero.jpg" alt="Rafting on a scenic river">
+    </section>
+
+</main>
+<footer>
+
+    <p>
+        © 2026 White Water Rafting | Katherine Montanhaur
+    </p>
+
+    <nav class="socialmedia">
+
+        <a href="https://facebook.com">
+            <img src="imagens/facebook.svg" alt="Ícone do Facebook">
+        </a>
+
+        <a href="https://instagram.com">
+            <img src="imagens/instagram.svg" alt="Ícone do Instagram">
+        </a>
+
+        <a href="https://wa.me/5519982547858">
+            <img src="imagens/whatsapp.svg" alt="Ícone do WhatsApp">
+        </a>
+
+    </nav>
+
+</footer>
 
 </body>
 
